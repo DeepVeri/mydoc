@@ -143,13 +143,13 @@ lsmod | grep bbr
 
 登录到 3x-ui 面板后，找到左侧菜单栏的 **入站列表**，点击进入，然后点击页面上的 **添加入站** 按钮。
 
-![入站列表](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/3xuidashboard.png)
+![入站列表](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi.png)
 
 ### 2. 配置 VLESS 节点
 
 点击后会弹出一个配置表单，这就是搭建节点的核心配置界面。别看选项很多，其实只需要关注几个重要的地方：
 
-![配置表单](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi.png)
+![配置表单](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi2.png)
 
 **基础配置**：
 - **备注 (Remark)**：随意填写，例如 `Reality-VLESS`
@@ -160,7 +160,7 @@ lsmod | grep bbr
 
 ### 3. 配置 Reality 安全选项
 
-![Reality配置](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi2.png)
+![Reality配置](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi3.png)
 
 往下滚动找到 **安全** 选项，选择 `reality`。这是目前比较推荐的加密方式。
 
@@ -174,14 +174,12 @@ lsmod | grep bbr
 
 ### 4. 配置 Flow 选项
 
-![Flow配置](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi3.png)
+![Flow配置](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi4.png)
 
 回到表单上方，找到 **客户端** 这一栏并展开。
 
 - **Flow**：从下拉菜单中选择 `xtls-rprx-vision` 或 `xtls-rprx-vision-udp443`（Vision 流控能大幅提升抗封锁能力）
 - **用户 (Client)**：点击 `+` 号添加用户，确保 ID（UUID）已生成
-
-![配置完成](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi4.png)
 
 ### 5. 保存并导出节点
 
