@@ -181,6 +181,8 @@ lsmod | grep bbr
 - **Flow**：从下拉菜单中选择 `xtls-rprx-vision` 或 `xtls-rprx-vision-udp443`（Vision 流控能大幅提升抗封锁能力）
 - **用户 (Client)**：点击 `+` 号添加用户，确保 ID（UUID）已生成
 
+![配置完成](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi4.png)
+
 ### 5. 保存并导出节点
 
 填写完所有配置后，点击表单底部的 **保存** 或 **添加** 按钮。
