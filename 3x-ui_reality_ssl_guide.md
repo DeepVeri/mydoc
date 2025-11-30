@@ -121,12 +121,12 @@ lsmod | grep bbr
     *   设置 **用户名**（默认 admin）。
     *   设置 **密码**（默认 admin）。
     *   设置 **端口**（默认 2053，建议修改为其他非常用端口，如 10000-60000 之间）。
-![安装配置](images/01-install.png)
+![安装配置](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/anzhuang.png)
 
 3.  **访问面板**：
     *   安装完成后，在浏览器输入：`http://你的IP:端口`
     *   使用刚才设置的用户名和密码登录。
- ![登录面板](images/02-login.png)
+ ![登录面板](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/3xuilogin.png)
 ---
 
 输入用户名和密码后，你应该就能看到 3X-UI 的管理界面了。
@@ -143,13 +143,13 @@ lsmod | grep bbr
 
 登录到 3x-ui 面板后，找到左侧菜单栏的 **入站列表**，点击进入，然后点击页面上的 **添加入站** 按钮。
 
-![入站列表](images/03-inbound-list.png)
+![入站列表](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/3xuidashboard.png)
 
 ### 2. 配置 VLESS 节点
 
 点击后会弹出一个配置表单，这就是搭建节点的核心配置界面。别看选项很多，其实只需要关注几个重要的地方：
 
-![配置表单](images/04-config-form.png)
+![配置表单](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi.png)
 
 **基础配置**：
 - **备注 (Remark)**：随意填写，例如 `Reality-VLESS`
@@ -160,7 +160,7 @@ lsmod | grep bbr
 
 ### 3. 配置 Reality 安全选项
 
-![Reality配置](images/05-reality-config.png)
+![Reality配置](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi2.png)
 
 往下滚动找到 **安全** 选项，选择 `reality`。这是目前比较推荐的加密方式。
 
@@ -174,7 +174,7 @@ lsmod | grep bbr
 
 ### 4. 配置 Flow 选项
 
-![Flow配置](images/06-flow-config.png)
+![Flow配置](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/peizhi3.png)
 
 回到表单上方，找到 **客户端** 这一栏并展开。
 
@@ -187,7 +187,7 @@ lsmod | grep bbr
 
 保存成功后，在入站列表中找到刚才创建的节点，点击右侧的操作菜单（三个点图标），选择 **导出链接**。
 
-![导出链接](images/07-export-link.png)
+![导出链接](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/daochu.png)
 
 ---
 
@@ -234,14 +234,14 @@ lsmod | grep bbr
 1. 打开 V2RayN 主界面
 2. 在主界面顶部菜单栏中，点击 **"订阅分组"** → **"订阅分组设置"**
 
-![订阅设置](images/08-subscription.png)
+![订阅设置](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/lianjie1.png)
 
 3. 在弹出的窗口中，点击 **"添加"** 按钮新增一条订阅
 4. 在 **"别名"** 栏输入一个容易识别的名称
 5. 在 **"可选地址(url)"** 栏粘贴从 3x-ui 面板导出的订阅链接
 6. 点击 **"确定"** 保存设置
 
-![添加订阅](images/09-add-subscription.png)
+![添加订阅](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/lianjie2.png)
 
 ### 6. 更新订阅
 
@@ -257,7 +257,7 @@ lsmod | grep bbr
 2. 右键点击该节点，从弹出菜单中选择 **"设为活动服务器"**
 3. 此时，系统托盘区的 V2RayN 图标会变成绿色，表示连接成功
 
-![连接成功](images/10-connected.png)
+![连接成功](https://raw.githubusercontent.com/DeepVeri/mydoc/main/images/lianjie3.png)
 
 
 ## 第六步：申请 SSL 证书（可选）
